@@ -1,16 +1,26 @@
 ## Eye grid
 
-When performing object detection image is partitioned into smaller grids. To each grid is then performed same operation (eg. convolution or attention).
+When performing object detection image is partitioned into smaller grids. To each grid is then performed same operation (eg. convolution or attention). This is used to extract same features from whole image.
 
 ### Computer
-![image](img/transformer.jpg) *Example of transformer partitions patches*
+![image](img/transformer.jpg)
+<br>
+*Example of transformer partitions patches*
 
-![image](img/convolution.jpg) *Example of CNN pipeline*
+<br>
 
+![image](img/convolution.jpg)
+<br>
+*Example of CNN pipeline*
+
+<br>
 
 ### Human
-![image](img/eye.jpg)*Example of human partitioning in human eyes.*
+![image](img/eye.jpg)
+<br>
+*Example of human partitioning in human eyes.*
 
+<br>
 
 ## Description
 This repo is an attempt to mimic human partitioning of input image. My hypothesis is that this method can substantially reduce number of dense convolutions in first layers of neural network.
